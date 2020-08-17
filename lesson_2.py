@@ -1,12 +1,24 @@
-#SOLOLEARN PYTHON COURSE LESSON 2
+"""
+SOLOLEARN PYTHON COURSE LESSON 2
+"""
 
-#booleans, True and False are sensitive, always with mayus
+"""
+booleans, True and False are sensitive, always with mayus
+"""
 x=True
 print(2==3)
 print(x)
-#arithmetical operators != < > <= >= ==
+
+"""
+arithmetical operators != < > <= >= ==
+"""
+
 print('x'!='y')
-#if else statements
+
+"""
+if else statements
+"""
+
 if 4>5:
     print('correcto')
 else:
@@ -29,14 +41,19 @@ if (1==1) and (4>3):
     print('ok')
 else:
     print('not ok')
-    
-#python functions same as the normal mathematical laws with priority for multipliactions and divisions 
-#and also for the resolve of parenthesis and keys
 
-# ~ is for the complement, // floor division, & bitwise and, ^ bitwise exclusive or, | bitwise or
-# << >> left and right bitwise shift
+"""
+python functions same as the normal mathematical laws with priority for multipliactions and divisions 
+and also for the resolve of parenthesis and keys
 
-#LISTS (ARRAYS IN JS OR C++)
+~ is for the complement, // floor division, & bitwise and, ^ bitwise exclusive or, | bitwise or
+<< >> left and right bitwise shift
+"""
+
+"""
+LISTS (ARRAYS IN JS OR C++)
+"""
+
 lista=['puto', 'el que', 'lo lea']
 print(lista[0])
 print(lista[1])
@@ -70,7 +87,9 @@ print(nums)
 #the .index method returns the index of a occurrence of an item of the list
 print(nums.index(69))
 
-#WHILE LOOPS
+"""
+WHILE LOOPS
+"""
 
 #infinite loop
 #while True:
@@ -86,7 +105,9 @@ while True:
         break#stops the cycle
 print('finished')
 
-#FOR LOOPS
+"""
+FOR LOOPS
+"""
 
 words = ["hello", "world", "spam", "eggs"]
 for word in words:

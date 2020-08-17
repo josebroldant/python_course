@@ -1,6 +1,10 @@
-#SOLOLEARN PYTHON COURSE LESSON 3
+"""
+SOLOLEARN PYTHON COURSE LESSON 3
+"""
 
-#IMPORTING MODULES
+"""
+IMPORTING MODULES
+"""
 import random
 from math import pi, exp
 from math import sqrt as square_root #naming the sqrt function as square_root
@@ -13,7 +17,10 @@ print(value)
 print(pi)
 print(square_root(100))
 
-#FUNCTIONS AND MODULES
+"""
+FUNCTIONS
+"""
+
 def my_func():
     print("Hola mundo")
 

@@ -1,4 +1,6 @@
-#SOLOLEARN PYTHON COURSE, LESSON ONE
+"""
+SOLOLEARN PYTHON COURSE, LESSON ONE
+"""
 
 print("Hello world!")
 #using symbol / when dividing throws the result as a float var
@@ -8,7 +10,7 @@ print(2**5)
 #// let us now the quotient of a division, % the remainder
 print(20//6)
 print(5%3)
-#use \n to start a new line, also fro avoiding aposthrophes in strings
+#use \n to start a new line, also for avoiding aposthrophes in strings
 print('Brian\'s mother is sick')
 #string concat, cannot concat str with int
 print('hola'+'mundo')
